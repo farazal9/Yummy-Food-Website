@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Website</title>
+  <!-- animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Include AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+  <!-- bootstrap icon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Header and Navigation -->
+  <div class="bg-white sticky-top">
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h2>Yummy <span class="dot">.</span></h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-2" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="true">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" data-bs-popper="static">
+                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                <li><a class="dropdown-item" href="#">Deep Dropdown</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button type="button" class="book-table text-white border-0 py-2 px-3 rounded-5">Book a Table</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div id="" class="bg-herosec">
+      <div class="container">
+        <div class="py-3 row align-items-center">
+
+
+          <!-- Right Section (For mobile) -->
+          <div class="col-lg-6 mt-5 d-block d-md-none" data-aos="fade-up">
+            <img class="img-fluid" src="./IMGS/hero-img.png" alt="hero-sec">
+          </div>
+          <!-- Left Section -->
+          <div class="col-lg-6" data-aos="fade-up">
+            <h1 class="enjoy-text">Enjoy Your Healthy <br> Delicious Food</h1>
+            <p class="team-para">We are a team of talented designers making <br> websites with Bootstrap</p>
+
+            <div class="d-flex">
+              <button type="button" class="book-table text-white border-0 py-2 px-4 rounded-5">Book a Table</button>
+              <div class="d-flex align-items-center mx-4">
+                <iconify-icon style="color: #CE1212;" class="fs-3 icon" icon="octicon:play-24"
+                  noobserver></iconify-icon>
+                <span class="fs-5 mx-2 watch-video">Watch Video</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Section (For Desktop) -->
+          <div class="col-lg-6 mt-5 d-none d-md-block" data-aos="fade-up">
+            <img class="img-fluid food-img" src="./IMGS/hero-img.png" alt="hero-sec">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section id="about">
+
+    <div class="container text-center my-5">
+
+      <p class="light-black">ABOUT US</p>
+
+      <h3>LEARN MORE <span class="abt-us">ABOUT US</span></h3>
+    </div>
+
+    <!-- herosec -->
+
+    <div class="container" data-aos="fade-up">
+
+
+      <div class="row">
+
+        <!-- left sec -->
+        <div class="col-lg-7">
+          <img class="img-fluid" src="./IMGS/about-left.jpg" alt="12">
+
+          <div class="book-table-border text-center my-5">
+            <h3 class="mt-4">Book a Table</h3>
+            <h2 class="dot">+1 5589 55488 55</h2>
+          </div>
+
+        </div>
+
+        <!-- right sec -->
+        <div class="col-lg-5 ">
+
+
+          <p class="light-black frt-px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore
+            magna aliqua.</p>
+
+          <div class="d-flex align-items-center gap-2">
+            <iconify-icon class="rounded-circle p-1" style="background-color: #CE1212; color: white;" class="fs-3"
+              icon="hugeicons:tick-04" noobserver></iconify-icon>
+            <span class="frt-px">Ullamco laboris nisi ut aliquip ex ea commodo consequat .</span>
+
+          </div>
+
+          <div class="d-flex align-items-center gap-2 my-3">
+            <iconify-icon class="rounded-circle p-1" style="background-color: #CE1212; color: white;" class="fs-3"
+              icon="hugeicons:tick-04" noobserver></iconify-icon>
+            <span class="frt-px">Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+
+          </div>
+
+          <div class="d-flex align-items-start gap-2">
+            <iconify-icon class="rounded-circle p-1" style="background-color: #CE1212; color: white;" class="fs-3"
+              icon="hugeicons:tick-04" noobserver></iconify-icon>
+            <span class="frt-px">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in
+              voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span>
+
+          </div>
+
+
+          <p class="mt-4 frt-px">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident
+          </p>
+
+
+          <div class="position-relative">
+
+
+            <div class="">
+              <img class="img-fluid" src="./IMGS/about-2-right.jpg" alt="2">
+            </div>
+
+            <iconify-icon class="rounded-circle p-2 fs-1 position-absolute top-50 start-50 translate-middle icon"
+              style="background-color: #CE1212; color: white;" icon="mdi-light:play" onclick="openVideoModal()"
+              noobserver>
+            </iconify-icon>
+
+
+
+            <!-- Full-Screen Modal for Video -->
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <!-- Close Button -->
+                  <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body p-0">
+                    <!-- Full-Screen Embedded YouTube Video -->
+                    <iframe id="videoIframe" width="100%" height="100%" src="" title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- cards for laptop -->
+
+  <div class="bg-herosec py-5 d-none d-lg-block" data-aos="fade-up">
+
+
+    <div class="container  d-flex gap-3">
+
+      <div class="card  " style="width: 25rem;">
+        <div class="card-body card-bg-color text-white">
+          <h2 class="card-title text-center my-3">Why Choose Yummy</h2>
+          <p class="card-text ">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed
+            et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+
+          <div class="d-flex justify-content-center">
+            <button
+              class="btn text-white bg-transparent border rounded-5 px-4 my-3 d-flex align-items-center gap-2">Learn
+              More <iconify-icon icon="mdi:greater-than"></iconify-icon></button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card text-center " style="width: 16rem;">
+        <div class="d-flex justify-content-center mt-5">
+          <i class="bi bi-clipboard-data rounded-circle bootstrap-icon pt-3"></i>
+        </div>
+
+
+        <div class="card-body ">
+          <h5 class="card-title text-center mt-2">Corporis voluptates officia eiusmod</h5>
+          <p class="card-text mt-4 frt-px">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+            aliquip.</p>
+
+
+        </div>
+      </div>
+
+
+
+
+
+      <div class="card text-center " style="width: 16rem;">
+        <div class="d-flex justify-content-center mt-5">
+          <i class="bi bi-gem rounded-circle bootstrap-icon pt-3"></i>
+        </div>
+
+
+        <div class="card-body ">
+          <h5 class="card-title text-center mt-2">Ullamco laboris ladore lore pan</h5>
+          <p class="card-text mt-4 frt-px">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt</p>
+
+
+        </div>
+      </div>
+
+
+
+      <div class="card text-center " style="width: 16rem;">
+        <div class="d-flex justify-content-center mt-5">
+          <i class="bi bi-inboxes rounded-circle bootstrap-icon pt-3"></i>
+        </div>
+
+
+        <div class="card-body ">
+          <h5 class="card-title text-center mt-2">Labore consequatur incidid dolore</h5>
+          <p class="card-text mt-4 frt-px">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+            facere</p>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+  <!-- cards for tabs,mobile -->
+
+  <div class="bg-herosec py-5 d-block d-lg-none" data-aos="fade-up">
+    <div class="container px-4">
+      <div class="row gap-3 justify-content-center">
+
+        <div class="col-md-12" data-aos="fade-up">
+          <div class="card" style="width: 100%;">
+            <div class="card-body card-bg-color text-white">
+              <h2 class="card-title text-center my-3">Why Choose Yummy</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores
+                sed
+                et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+              <div class="d-flex justify-content-center">
+                <button
+                  class="btn text-white bg-transparent border rounded-5 px-4 my-3 d-flex align-items-center gap-2">
+                  Learn More <iconify-icon icon="mdi:greater-than"></iconify-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 " data-aos="fade-up">
+          <div class="card text-center" style="width: 100%;">
+            <div class="d-flex justify-content-center mt-5">
+              <i class="bi bi-clipboard-data rounded-circle bootstrap-icon pt-3"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center mt-2">Corporis voluptates officia eiusmod</h5>
+              <p class="card-text mt-4 frt-px">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi
+                ut aliquip.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 " data-aos="fade-up">
+          <div class="card text-center" style="width: 100%;">
+            <div class="d-flex justify-content-center mt-5">
+              <i class="bi bi-gem rounded-circle bootstrap-icon pt-3"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center mt-2">Ullamco laboris ladore lore pan</h5>
+              <p class="card-text mt-4 frt-px">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12" data-aos="fade-up">
+          <div class="card text-center" style="width: 100%;">
+            <div class="d-flex justify-content-center mt-5">
+              <i class="bi bi-inboxes rounded-circle bootstrap-icon pt-3"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center mt-2">Labore consequatur incidid dolore</h5>
+              <p class="card-text mt-4 frt-px">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+                facere</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- stats -->
+
+
+
+  <div class="position-relative" data-aos="fade-up">
+    <div>
+      <img style="height: 65vh; object-fit: cover;" class="img-fluid w-100" src="./IMGS/stats-bg.jpg" alt="s">
+    </div>
+
+
+    <!-- ovcerlay for darkening effect -->
+
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);">
+    </div>
+
+
+
+
+    <div class="position-absolute  top-50 start-50  translate-middle text-center container">
+      <div class="row">
+
+
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-offset="50">
+          <h1 class="counter text-white fw-bold" data-target="232">0</h1>
+          <p class="text-white para-stats">Clients</p>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 my-2" data-aos="fade-up" data-aos-offset="50">
+          <h1 class="counter text-white fw-bold" data-target="521">0</h1>
+          <p class="text-white para-stats">Projects</p>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-offset="50">
+          <h1 class="counter text-white fw-bold" data-target="1453">0</h1>
+          <p class="text-white para-stats">Hours Of Support</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-2" data-aos="fade-up" data-aos-offset="50">
+          <h1 class="counter text-white fw-bold" data-target="32">0</h1>
+          <p class="text-white para-stats">Workers</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <br><br>
+  <!-- Our Menu -->
+  <section id="menu" data-aos="fade-up">
+    <div class="container my-5">
+
+
+      <p class="text-center menu" data-aos="fade-up">OUR MENU</p>
+
+
+      <h3 class="text-center" data-aos="fade-up">Check Our <span class="abt-us">Yummy Menu</span></h3>
+
+    </div>
+
+    <!-- menu items  -->
+
+    <div class="container text-center my-5">
+      <!-- Tabs -->
+      <div id="menuTabs">
+        <span class="menu-tab active" onclick="showMenu('starters')">Starters</span>
+        <span class="menu-tab" onclick="showMenu('breakfast')">Breakfast</span>
+        <span class="menu-tab" onclick="showMenu('lunch')">Lunch</span>
+        <span class="menu-tab" onclick="showMenu('dinner')">Dinner</span>
+      </div>
+
+      <!-- Menu Content -->
+      <div id="menuContent" class="my-5">
+        <!-- Starters Menu -->
+        <div id="starters" class="menu-section">
+
+          <div class="container">
+
+
+            <div class="row">
+
+
+              <div class="col-lg-4 col-md-12 text-center">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-1.png" alt="1"><br>
+                <h5>Magnam Tiste</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$5.95</h3>
+              </div>
+
+
+
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-2.png" alt="1"><br>
+                <h5>Aut Luia</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$14.95</h3>
+              </div>
+
+
+
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-3.png" alt="1"><br>
+                <h5>Est Eligendi</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$8.95</h3>
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="row my-5">
+
+
+              <div class="col-lg-4 col-md-12 text-center">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-4.png" alt="1"><br>
+                <h5>Eos Luibusdam</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$12.95</h3>
+              </div>
+
+
+
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-5.png" alt="1"><br>
+                <h5>Eos Luia</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$16.95</h3>
+              </div>
+
+
+
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-6.png" alt="1"><br>
+                <h5>Laboriosam Direva</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$9.95</h3>
+              </div>
+
+
+
+            </div>
+
+
+          </div>
+          <!-- Add your Starters menu items here -->
+        </div>
+
+        <!-- Breakfast Menu -->
+        <div id="breakfast" class="menu-section d-none">
+          <div class="row my-5">
+
+
+            <div class="col-lg-4 col-md-12 text-center">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-4.png" alt="1"><br>
+              <h5>Eos Luibusdam</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$12.95</h3>
+            </div>
+
+
+
+            <div class="text-center col-lg-4 col-md-12">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-5.png" alt="1"><br>
+              <h5>Eos Luia</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$16.95</h3>
+            </div>
+
+
+
+            <div class="text-center col-lg-4 col-md-12">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-6.png" alt="1"><br>
+              <h5>Laboriosam Direva</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$9.95</h3>
+            </div>
+
+
+
+          </div>
+          <!-- Add your Breakfast menu items here -->
+        </div>
+
+        <!-- Lunch Menu -->
+        <div id="lunch" class="menu-section d-none">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 text-center">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-1.png" alt="1"><br>
+                <h5>Magnam Tiste</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$5.95</h3>
+              </div>
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-2.png" alt="1"><br>
+                <h5>Aut Luia</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$14.95</h3>
+              </div>
+              <div class="text-center col-lg-4 col-md-12">
+                <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-3.png" alt="1"><br>
+                <h5>Est Eligendi</h5>
+                <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+                <h3 class="fw-bolder dot">$8.95</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dinner Menu -->
+        <div id="dinner" class="menu-section d-none">
+          <div class="row">
+
+
+            <div class="col-lg-4 col-md-12 text-center">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-1.png" alt="1"><br>
+              <h5>Magnam Tiste</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$5.95</h3>
+            </div>
+
+
+
+            <div class="text-center col-lg-4 col-md-12">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-2.png" alt="1"><br>
+              <h5>Aut Luia</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$14.95</h3>
+            </div>
+
+
+
+            <div class="text-center col-lg-4 col-md-12">
+              <img class="img-fluid w-75 mb-3" src="./IMGS/menu-item-3.png" alt="1"><br>
+              <h5>Est Eligendi</h5>
+              <p class="light-black">Lorem, deren, trataro, filede, nerada</p>
+              <h3 class="fw-bolder dot">$8.95</h3>
+            </div>
+
+
+
+          </div>
+
+          <!-- Add your Dinner menu items here -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- testimonal -->
+  <div class="bg-herosec">
+
+    <div class="container">
+      <br>
+      <p class="light-black mt-5 text-center">TESTIMONALS</p>
+
+      <h1 class="text-center saying-text">WHAT ARE THEY SAYING <span class="abt-us">ABOUT US</span></h1>
+
+      <div id="carouselExampleIndicators" class="carousel slide mt-2">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-item active py-5">
+            <div class="container">
+              <div class="row align-items-center d-flex justify-content-center">
+
+                <div class="col-lg-4 col-md-12">
+                  <p><i class="bi bi-quote quote-icon-left dot"></i> Proin iaculis purus consequat sem cure digni ssim
+                    donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget
+                    nibh et. Maecen aliquam, risus at semper. <i class="bi bi-quote quote-icon-left dot"></i>
+                  </p>
+                </div>
+                <div class="col-lg-2 col-md-12 text-center">
+
+                  <img width="170px" class="img-fluid  rounded-circle" src="./IMGS/testimonials-1.jpg" alt="3">
+                </div>
+
+              </div>
+
+              <div class="container text-center mt-2">
+
+                <h3 class="saying-text">SAUL GOODMAN</h3>
+                <P class="saying-text light-black">CEO & FOUNDER</P>
+
+                <div class="d-flex justify-content-center gap-1">
+
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+          <div class="carousel-item py-5">
+            <div class="container">
+              <div class="row align-items-center d-flex justify-content-center">
+
+                <div class="col-lg-4 col-md-12">
+                  <p><i class="bi bi-quote quote-icon-left dot"></i> Export tempor illum tamen malis malis eram quae
+                    irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster
+                    fugiat irure amet legam anim culpa. <i class="bi bi-quote quote-icon-left dot"></i>
+                  </p>
+                </div>
+                <div class="col-lg-2 col-md-12 text-center">
+
+                  <img width="170px" class="img-fluid  rounded-circle" src="./IMGS/testimonials-2.jpg" alt="3">
+                </div>
+
+              </div>
+
+              <div class="container text-center mt-2">
+
+                <h3 class="saying-text">Sara Wilsson</h3>
+                <P class="saying-text light-black">Designer</P>
+
+                <div class="d-flex justify-content-center gap-1">
+
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="carousel-item py-5">
+            <div class="container">
+              <div class="row align-items-center d-flex justify-content-center">
+
+                <div class="col-lg-4 col-md-12">
+                  <p><i class="bi bi-quote quote-icon-left dot"></i> Enim nisi quem export duis labore cillum quae magna
+                    enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                    fore quis sint minim. <i class="bi bi-quote quote-icon-left dot"></i>
+                  </p>
+                </div>
+                <div class="col-lg-2 col-md-12 text-center">
+
+                  <img width="170px" class="img-fluid  rounded-circle" src="./IMGS/testimonials-3.jpg" alt="3">
+                </div>
+
+              </div>
+
+              <div class="container text-center mt-2">
+
+                <h3 class="saying-text">Jena Karlis</h3>
+                <P class="saying-text light-black">Store Owner</P>
+
+                <div class="d-flex justify-content-center gap-1">
+
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="carousel-item py-5">
+            <div class="container">
+              <div class="row align-items-center d-flex justify-content-center">
+
+                <div class="col-lg-4 col-md-12">
+                  <p><i class="bi bi-quote quote-icon-left dot"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.  <i class="bi bi-quote quote-icon-left dot"></i>
+                  </p>
+                </div>
+                <div class="col-lg-2 col-md-12 text-center">
+
+                  <img width="170px" class="img-fluid  rounded-circle" src="./IMGS/testimonials-4.jpg" alt="3">
+                </div>
+
+              </div>
+
+              <div class="container text-center mt-2">
+
+                <h3 class="saying-text">John Larson</h3>
+                <P class="saying-text light-black">Entrepreneur</P>
+
+                <div class="d-flex justify-content-center gap-1">
+
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                  <i class="bi bi-star-fill star-color"></i>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- Include AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Initialize AOS -->
+  <script>
+    AOS.init({
+      offset: 120, // Start animation 120px before the element comes into view
+      duration: 800, // Duration of the animation
+      easing: 'ease-in-out', // Easing function for smooth animation
+      delay: 100, // Delay before the animation starts
+    });
+  </script>
+
+  <script src="./scrpt.js"></script>
+
+</body>
+
+</html>

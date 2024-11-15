@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-ul li a{
+  font-size: 15px;
+  font-family:   sans-serif;
+}
+.book-table {
+  background-color: #CE1212;
+  font-size: 14px;
+}
+
+.dot {
+  color: #CE1212;
+
+}
+
+.bg-herosec {
+  background-color: #F2F2F2;
+}
+
+.enjoy-text {
+  font-size: 64px !important;
+  font-family: "Amatic SC", sans-serif !important;
+  font-weight: bolder !important;
+}
+
+
+.team-para {
+  font-size: 20px;
+}
+
+.watch-video:hover {
+  color: #CE1212;
+  cursor: pointer;
+}
+
+ .food-img {
+  -webkit-animation: squareToCircle 10s 1s infinite alternate;
+}
+
+@-webkit-keyframes squareToCircle {
+  0% {
+    border-radius: 0 0 0 0;
+
+    transform: rotate(0deg);
+  }
+
+  25% {
+    border-radius: 50% 0 0 0;
+
+    transform: rotate(45deg);
+  }
+
+  50% {
+    border-radius: 50% 50% 0 0;
+
+    transform: rotate(90deg);
+  }
+
+  75% {
+    border-radius: 50% 50% 50% 0;
+
+    transform: rotate(180deg);
+  }
+
+  100% {
+    border-radius: 50% 50% 50% 50%;
+
+    transform: rotate(270deg);
+  }
+} 
+
+h3:nth-child(2){
+  font-size: 48px;
+  font-family: "Amatic SC", sans-serif;
+}
+.abt-us{
+  color: #CE1212;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.light-black{
+  color: rgb(144, 133, 133);
+}
+
+.frt-px{
+  font-size: 14px;
+}
+
+.book-table-border{
+  border: 5px solid rgb(114, 111, 111);
+}
+
+.icon{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+}
+
+.icon:hover{
+  transform: scale(1.2);  
+}
+
+.card-bg-color{
+  background-color: #CE1212;
+}
+
+.bootstrap-icon{
+  background-color: #FCF3F3;
+  font-size: 30px;
+  color: #CE1212;
+  width: 70px;
+  height: 70px;
+}
+
+.bootstrap-icon:hover{
+  color: white;
+  background-color: #CE1212;
+  cursor: pointer;
+
+}
+
+
+.para-stats{
+  color: rgb(121, 116, 116);
+  font-weight: 700;
+}
+
+.menu{
+  color: rgb(121, 116, 116);
+
+}
+
+.saying-text{
+  font-family: "Amatic SC", sans-serif;
+}
+.star-color{
+  color: #FFC107;
+}
+
+
+/* header border  */
+.nav-link {
+  position: relative;
+  padding-bottom: 5px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  color: #CE1212;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color:  #CE1212; /* Adjust border color */
+  animation: borderAnimation 0.5s ease;
+}
+
+@keyframes borderAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+/* menu styling */
+.menu-tab {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  color: #080101;
+  transition: color 0.3s ease;
+}
+
+/* White line for all tabs initially */
+.menu-tab::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(179, 165, 165);
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+/* Active tab with red line */
+.menu-tab.active {
+  color: red;
+}
+.menu-tab.active::after {
+  background-color: red;
+  transform: scaleX(1.1); /* Small scaling effect */
+}
+
+/* Prevent horizontal overflow */
+/* body, html {
+  overflow-x: hidden;
+}
+
+/* Ensure the container does not exceed the page width */
+/* .container {
+  max-width: 100%;
+} */
+ 
+
+.bordre{
+  border: 2px solid black;
+}

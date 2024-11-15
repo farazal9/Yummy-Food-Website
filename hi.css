@@ -1,0 +1,29 @@
+/* Style for the menu items and lines */
+.menu-item {
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .menu-line {
+    width: 100%;
+    height: 4px;
+    background-color: #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Active color for the selected line */
+  .menu-line.active {
+    background-color: red;
+  }
+  
+  /* Styling sections to distinguish content areas */
+  .menu-section {
+    padding: 20px;
+    display: none; /* Hide all sections by default */
+  }
+  
+  .menu-section.active {
+    display: block; /* Show active section only */
+  }
+  
