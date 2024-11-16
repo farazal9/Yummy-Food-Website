@@ -27,7 +27,7 @@ function animateCounter(element, target) {
         } else {
             element.innerText = Math.round(count);
         }
-    }, 30); // Adjust the delay here for animation smoothness
+    }, 50); // Adjust the delay here for animation smoothness
 }
 
 // Select all elements with the 'counter' class and apply the animation

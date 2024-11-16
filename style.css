@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif; 
 }
 
-.header-ul li a{
+.header-ul li a {
   font-size: 15px;
-  font-family:   sans-serif;
+  font-family: sans-serif;
 }
+
 .book-table {
   background-color: #CE1212;
   font-size: 14px;
@@ -39,7 +42,7 @@
   cursor: pointer;
 }
 
- .food-img {
+.food-img {
   -webkit-animation: squareToCircle 10s 1s infinite alternate;
 }
 
@@ -73,44 +76,45 @@
 
     transform: rotate(270deg);
   }
-} 
+}
 
-h3:nth-child(2){
+h3:nth-child(2) {
   font-size: 48px;
   font-family: "Amatic SC", sans-serif;
 }
-.abt-us{
+
+.abt-us {
   color: #CE1212;
   font-family: "Amatic SC", sans-serif;
 }
 
-.light-black{
+.light-black {
   color: rgb(144, 133, 133);
 }
 
-.frt-px{
+.frt-px {
   font-size: 14px;
 }
 
-.book-table-border{
+.book-table-border {
   border: 5px solid rgb(114, 111, 111);
 }
 
-.icon{
+.icon {
   cursor: pointer;
   transition: transform 0.3s ease;
 
 }
 
-.icon:hover{
-  transform: scale(1.2);  
+.icon:hover {
+  transform: scale(1.2);
 }
 
-.card-bg-color{
+.card-bg-color {
   background-color: #CE1212;
 }
 
-.bootstrap-icon{
+.bootstrap-icon {
   background-color: #FCF3F3;
   font-size: 30px;
   color: #CE1212;
@@ -118,7 +122,7 @@ h3:nth-child(2){
   height: 70px;
 }
 
-.bootstrap-icon:hover{
+.bootstrap-icon:hover {
   color: white;
   background-color: #CE1212;
   cursor: pointer;
@@ -126,23 +130,28 @@ h3:nth-child(2){
 }
 
 
-.para-stats{
+.para-stats {
   color: rgb(121, 116, 116);
   font-weight: 700;
 }
 
-.menu{
+.menu {
   color: rgb(121, 116, 116);
 
 }
 
-.saying-text{
+.saying-text {
   font-family: "Amatic SC", sans-serif;
 }
-.star-color{
+
+.star-color {
   color: #FFC107;
 }
 
+.para-chefs {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; 
+}
 
 /* header border  */
 .nav-link {
@@ -163,7 +172,8 @@ h3:nth-child(2){
   left: 0;
   width: 100%;
   height: 2px;
-  background-color:  #CE1212; /* Adjust border color */
+  background-color: #CE1212;
+  /* Adjust border color */
   animation: borderAnimation 0.5s ease;
 }
 
@@ -171,6 +181,7 @@ h3:nth-child(2){
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -206,22 +217,35 @@ h3:nth-child(2){
 .menu-tab.active {
   color: red;
 }
+
 .menu-tab.active::after {
   background-color: red;
-  transform: scaleX(1.1); /* Small scaling effect */
+  transform: scaleX(1.1);
+  /* Small scaling effect */
 }
 
-/* Prevent horizontal overflow */
-/* body, html {
-  overflow-x: hidden;
+
+#carouselExampleIndicators2 .carousel-indicators .active {
+  background-color: #ff5733 !important;
+  /* Specific color for the second carousel */
 }
 
-/* Ensure the container does not exceed the page width */
-/* .container {
-  max-width: 100%;
-} */
- 
 
-.bordre{
-  border: 2px solid black;
+
+/* SWIPER CSS */
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+.svg-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
 }
