@@ -249,3 +249,64 @@ swiper-slide img {
 .svg-white {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);
 }
+
+/* card hover */
+
+.card:hover{
+  transform: scale(1.03);
+
+}
+
+.card:hover .social-icons{
+  display: block !important;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+} 
+
+
+.social-icons {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-border:hover {
+  border: 2px solid #ff5733 !important;
+}
+
+
+/* wiper slider */
+/* Container Styles */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Slide Styles */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* Image Styling */
+.swiper-slide img {
+  display: block;
+  width: 100%; /* Makes the image responsive */
+  height: auto;
+  object-fit: cover;
+  max-width: 100%; /* Ensures images do not overflow */
+}
+
+/* Active Tab Styling - Red border on active slide */
+.swiper-slide-active img {
+  border: 5px solid red;
+}
+
+/* Optional: Customize pagination bullets */
+.swiper-pagination-bullet-active {
+  background-color: red !important;
+}
